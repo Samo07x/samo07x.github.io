@@ -12,16 +12,16 @@ import About from './pages/About.tsx';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/*",
     element: <App />,	
     errorElement: <ErrorPage />,
     children: [
       {
-      path: "/contact",
+      path: "contact",
       element: <Contact/>,	
       errorElement: <ErrorPage />,
     },  {
-      path: "/about",
+      path: "about",
       element: <About/>,	
       errorElement: <ErrorPage />,
     },],
