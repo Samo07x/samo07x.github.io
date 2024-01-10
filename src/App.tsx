@@ -2,8 +2,8 @@ function App() {
    return (
     <>
     <div>
-      Hello world!
-    </div>
+    <button className="btn">Button</button>
+        </div>
     </>
   )
 }
