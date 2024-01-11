@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
-        <div className="drawer">
+        <div className="drawer fixed top-0 z-50">
             <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content flex flex-col">
                 <div className="w-full navbar bg-base-300">
@@ -19,7 +19,6 @@ function Navbar() {
                             {/* Navbar menu content here */}
                             <li><Link to="/">Home </Link></li>
                             <li><Link to="/contact">Contact </Link></li>
-                            <li><Link to="/about">About </Link></li>
                         </ul>
                     </div>
                 </div>
@@ -30,7 +29,6 @@ function Navbar() {
                     {/* Sidebar content here */}
                     <li><Link to="/">Home </Link></li>
                     <li><Link to="/contact">Contact </Link></li>
-                    <li><Link to="/about">About </Link></li>
                 </ul>
             </div>
         </div>
