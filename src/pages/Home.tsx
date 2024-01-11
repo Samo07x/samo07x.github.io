@@ -7,7 +7,7 @@ function Home() {
           <div>
             <h1 className="text-5xl font-bold text-accent">Hi, I'm Abdussamed Sen</h1>
             <p className="py-6">I'm a modern work consultant at IT-Improvement, specializing in driving digital transformation and improving organizational efficiency. With a deep understanding of technology and business processes, I help companies optimize their workflows and achieve their strategic goals.</p>
-            <a href="/contact" className="btn btn-info mb-5">Contact Me</a></div>
+            <a href="*/contact" className="btn btn-info mb-5">Contact Me</a></div>
         </div>
       </div>
     </>

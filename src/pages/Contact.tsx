@@ -44,12 +44,12 @@ function Contact() {
     {
       icon: <BsFillTelephoneFill className="text-4xl" />,
       title: "Contact Number",
-      desription: `+49 1520 5629063`,
+      desription: `+49 111 5629063`,
     },
     {
       icon: <FaPaperPlane className="text-4xl" />,
       title: "Email Address",
-      desription: `samed1947@gmail.com`,
+      desription: `@gmail.com`,
     },
     {
       icon: <BsFillThreadsFill className="text-4xl" />,
