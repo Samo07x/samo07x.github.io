@@ -27,7 +27,7 @@ function Navbar() {
                 <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
                 <ul className="menu p-4 w-80 min-h-full bg-base-200">
                     {/* Sidebar content here */}
-                    <li><Link to="/">Home </Link></li>
+                    <li><Link to="/">Home</Link></li>
                     <li><Link to="/contact">Contact </Link></li>
                 </ul>
             </div>
